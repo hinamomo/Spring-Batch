@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * Dummy {@link ItemWriter} which only logs data it receives.
+ * Dummy {@link ItemWriter} which only logs data it receives .
  */
 @Component("writer")
 public class ExampleItemWriter implements ItemWriter<Object> {
